@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewpoint" content="width=device-width, inizial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        action => definisce dove inviare i dati
+        method => indica la modalità di invio dei dati
+        method : post => non sporco l'indirizzo, posso inviare grandi quantità di dati
+        method: get => sporca l'indeirizzo aggiungendo una serie di quary params (cyhiave-valore), numero di dati inviati limitato
+    -->
+
+    <form action="">
+
+        <label for="">Nome</label>
+        <input id="nome" name="nome" type="text" placeholder="Nome">
+        <input name="num" placeholder="Numero">
+        <input name="email" placeholder="La tua email">
+        <input name="psw" placeholder="inserisci la pasword">
+
+        <label for="consenso">Accetto la privacy policy</label>
+        <input id="consenso" type="checkbox">
+
+        <select name="city">
+            <option value="">--seleziona</option>
+            <option value="roma">Roma</option>
+            <option value="milano">Milano</option>
+        </select>
+
+        <button>Invia</button>
+        <!--
+            oppure
+            <input type="submit" value="salva">
+            utilizzo value per cambiare l'etichetta del tasto submit
+        -->
+        
+    </form>
+
+</body>
+</html>
