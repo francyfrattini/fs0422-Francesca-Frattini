@@ -51,6 +51,11 @@ main{
     line-height: 3.5rem;
 }
 
+figure img{
+    border-style: outset;
+    border-width: 10px;
+}
+
 figcaption{
     line-height: 1.5rem;
 }
@@ -77,6 +82,8 @@ blockquote p{/*citazione*/
     font-style: italic;
     text-align: center;
     border-radius: 8px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 section h2{/*presentazione, formazione*/
