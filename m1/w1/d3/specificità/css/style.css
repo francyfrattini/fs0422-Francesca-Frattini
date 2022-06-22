@@ -1,0 +1,26 @@
+#main-header .list-item a{/*peso 111*/
+    text-decoration:none;
+    color: black;
+}
+
+#main-header a{/*peso 101*/
+    text-decoration:none;
+    color: red;
+}
+
+a{/*peso 1*/
+    text-decoration:none;
+    color: blue;
+}
+
+div.sfondo-blue{ /*funziona solo se applicata a un div*/
+    background-color: red;
+}
+
+div.sfondo-blue.testo-grassetto{ /*funziona solo se entrambe le classsi sono applicate contemporaneamente allo stesso div*/
+    font-weight: bold;
+}
+
+.sfondo-blue, .testo-grassetto{
+    height: 50px;
+}
