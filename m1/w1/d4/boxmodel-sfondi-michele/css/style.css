@@ -1,0 +1,40 @@
+/*gestione immagini*/
+img{
+    max-width: 100%;
+}
+/*box model*/
+.quadrato{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    padding-top: 10px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-top: 5px solid rgba(0,0,0,0.5);
+    border-right: 15px solid rgba(0,0,0,0.5);
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 50%;
+    outline: 5px solid rgba(0,0,0,0.5)
+}
+
+.quadrato:nth-of-type(1){
+    width: 50%;
+    margin: 0 25%;
+}
+.quadrato:nth-of-type(2){
+    margin: 0 auto;
+}
+
+.center-text{
+    text-align: center;
+}
+
+/* sfondi */
+#blocco-sfondo{
+    height: 300px;
+    background-image: url('../img/html5-piccola-guida.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+}
