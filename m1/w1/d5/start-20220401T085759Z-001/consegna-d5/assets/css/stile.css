@@ -48,10 +48,11 @@ button{
     background-color: #f04c2f;
     color: white;
     border: 0;
-    width: 10rem;
-    height: 3rem;
-    font-size: 1.2rem;
+    width: 15rem;
+    height: 5rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
+    font-weight: bold;
     border-radius: 0.3rem;
 }
 
@@ -59,28 +60,38 @@ img.cerchio{
     margin-top: 5rem;
     border-radius: 100rem;
     height: 30rem;
+    margin: 3rem;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 10px
 }
 
 img.pc{
     width: 50rem;
+    margin: 3rem;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 10px
 }
 
 img.ufficio{
     width: 50rem;
-
+    margin: 3rem;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 10px
 }
 
 img.tastiera{
     width: 50rem;
-
+    margin: 3rem;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 10px
 }
 
 section h3{/*sezioni uguali*/
-    font-size: 2rem;
+    font-size: 3rem;
     color: #25a2c3;
     font-weight: bold;
     line-height: 1.4rem;
-    padding-top: 2rem;
+    padding-top: 1.8rem;
 }
 
 div p{/*paragrafi uguali*/
@@ -121,15 +132,13 @@ section cite h4{
     font-style: normal;
     color: white;
     font-size: 2.5rem;
-    line-height: 2rem;
-    margin: 5rem;
+    margin: 4rem;
 }
 
 section cite h5{
     font-style: normal;
     color: white;
-    font-size: 2rem;
-    line-height: -2rem;
+    font-size: 1.5rem;
 }
 
 /*FOOTER*/
@@ -139,7 +148,7 @@ footer{
     line-height: 3rem;
     margin:5rem;
     height: 30rem;
-    margin-top: 315rem;
+    margin-top: 305rem;
     padding-top: 2rem;
 }
 
