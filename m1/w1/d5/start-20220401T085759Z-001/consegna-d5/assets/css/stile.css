@@ -60,38 +60,31 @@ img.cerchio{
     margin-top: 5rem;
     border-radius: 100rem;
     height: 30rem;
-    margin: 3rem;
     background: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 10px
 }
 
 img.pc{
     width: 50rem;
-    margin: 3rem;
-    background: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 10px
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 10px;
 }
 
 img.ufficio{
     width: 50rem;
-    margin: 3rem;
-    background: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 10px
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 10px;
 }
 
 img.tastiera{
     width: 50rem;
-    margin: 3rem;
-    background: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 10px
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 10px;
 }
 
 section h3{/*sezioni uguali*/
     font-size: 3rem;
     color: #25a2c3;
     font-weight: bold;
-    line-height: 1.4rem;
-    padding-top: 1.8rem;
+    line-height: 2rem;
+    padding-top: 3rem;
 }
 
 div p{/*paragrafi uguali*/
@@ -101,6 +94,7 @@ div p{/*paragrafi uguali*/
     font-size: 2rem;
     color: #000000;
     line-height: 4rem;
+    padding-bottom: 3rem;
 }
 
 section.evidenziato{
@@ -145,11 +139,9 @@ section cite h5{
 
 footer{
     background-color: #25a2c3;
-    line-height: 3rem;
-    margin:5rem;
     height: 30rem;
-    margin-top: 305rem;
-    padding-top: 2rem;
+    margin: 5rem;
+    margin-top: 350rem;
 }
 
 footer a, address{
@@ -159,10 +151,17 @@ footer a, address{
 
 footer h2{
     font-weight: bold;
-    line-height: 8rem;
+    line-height: 10rem;
 }
 
 footer p{
     color: white;
     font-size: 2rem;
+    line-height: 3.5rem;
+}
+
+.privacy, strong{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 10rem;
 }
