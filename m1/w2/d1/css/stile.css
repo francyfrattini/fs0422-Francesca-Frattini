@@ -8,3 +8,22 @@
     height: 300px;
     margin-bottom: 15px;
 }
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.col{
+    background-color: red;
+    height: 300px;
+    margin-bottom: 15px
+}
+
+.test{
+    background-color: purple;
+    height: 50px;
+}
+
+
+#solo-desktop{
+    display: none
+}

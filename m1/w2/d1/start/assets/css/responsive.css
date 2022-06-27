@@ -1,0 +1,256 @@
+/*320px*/
+
+@media screen and (min-width: 320px) {
+
+    .social, .toTop{
+        height: 5rem;
+        width: 5rem;
+        opacity: 50%;
+    }
+
+    header{
+        position: relative;
+    }
+    
+    body {
+        line-height: 2.5rem;
+    }
+
+    main h2{
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .imgLeft{
+        height: 4rem;
+        width: 4rem;
+    }
+
+    h1 + p {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    table, iframe, section, aside{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    button{
+        margin-top: 1rem;
+    }
+
+}
+
+/*480px*/
+
+@media screen and (min-width: 480px) {
+
+    header div img {
+        width: 75%;
+        height: 10rem; 
+        margin-top: 3rem;
+    }
+
+    header div{
+        font-size: 2rem;
+    }
+
+    header nav ul{
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    h1{
+        font-size: 2.4rem;
+    }
+    
+    h1 + p {
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .imgLeft{
+        height: 10rem;
+        width: 10rem;
+    }
+
+
+    table, iframe, section, aside{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    iframe{
+        width: 100%;
+        height: 25rem;
+    }
+
+    button{
+        margin-top: 0.2rem;
+    }
+
+    footer{
+        padding: 4rem;
+    }
+
+}
+
+/*768px*/
+
+@media screen and (min-width: 768px) {
+
+    header div img {
+        height: 8rem;
+        margin: 1rem;    
+    }
+
+    header div{
+        font-size: 1.5rem;
+    }
+
+    header nav ul{
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .imgLeft{
+        height: 5rem;
+        width: 5rem;
+    }
+
+    table{
+        width: 70rem;
+        margin: 0 auto;
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+    }
+
+    iframe{
+        height: 40rem;
+    }
+
+    section{
+        text-align: center;
+    }
+
+    aside div{
+        width: calc(100% / 3 - 1rem);
+        display: inline-block;
+        margin-right: 0.75rem;
+    }
+}
+
+/*1024px*/
+
+@media screen and (min-width: 1024px) {
+
+    .social, .toTop{
+        height: 6rem;
+        width: 6rem;
+    }
+
+    body{
+        padding: 8rem;
+    }
+
+    main{
+        text-align: center;
+    }
+
+    header div img {
+        margin-bottom: 4rem;    
+    }
+
+    header div{
+        font-size: 1.8rem;
+    }
+
+    .imgLeft{
+        height: 7rem;
+        width:7rem;
+    }
+
+    article ul{
+        text-align: left;
+    }
+
+    article li{
+        text-align: left;
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+
+    main h2{
+        font-size: 1.8rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;    
+    }
+
+    section{
+        width: 70rem;
+        margin: 0 auto;
+    }
+
+    section h2{
+        margin: 0 auto;
+
+    }
+
+    iframe{
+        width: 70rem;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    caption{
+        font-size: 1.5rem;
+    }
+
+    aside{
+        text-align: left;
+    }
+
+}
+
+/*1200px*/
+
+@media screen and (min-width: 1200px) {
+
+    header div img {
+        height: 9rem;
+        margin-bottom: 3rem;    
+    }
+
+    article li{
+        text-align: left;
+        margin-left: 30rem;
+        margin-right: 20rem;
+    }
+
+    iframe{
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    section{
+        margin-bottom: 4rem;
+    }
+
+    caption{
+        font-size: 1.8rem;
+    }
+
+}
+
+@media print{
+
+    header, iframe, footer, aside, section, .social, .toTop{
+        display: none;
+    }
+
+}
