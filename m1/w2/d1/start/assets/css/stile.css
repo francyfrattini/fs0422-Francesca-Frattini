@@ -24,7 +24,7 @@ hr {display: none;} /* rimuove l'elemento */
 }
 .toTop a, .social a {
     color: #c77ea2;
-    font-size: 4rem;
+    font-size: 3rem;
     display: block;
 }
     .social a {
@@ -228,8 +228,4 @@ footer {
 }
 footer a {
     color: fuchsia;
-}
-
-#solo-desktop{
-    display: none
 }
