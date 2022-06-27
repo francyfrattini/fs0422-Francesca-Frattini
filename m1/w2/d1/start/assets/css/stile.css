@@ -229,3 +229,7 @@ footer {
 footer a {
     color: fuchsia;
 }
+
+#solo-desktop{
+    display: none
+}
