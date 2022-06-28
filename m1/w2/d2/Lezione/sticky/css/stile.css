@@ -1,0 +1,12 @@
+#top-bar{
+    height: 50px;
+    background-color: aquamarine;
+}
+
+#main-header{
+    height: 70px;
+    background-color: plum;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}

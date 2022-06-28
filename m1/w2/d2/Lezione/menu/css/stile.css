@@ -1,0 +1,46 @@
+#main-header{
+    background-color: rgb(0, 143, 95);
+    height: 50px;
+    text-align: center;
+}
+
+#menu > li{
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+#menu li:hover{
+    background-color: white;
+}
+
+#menu li:hover a{
+    color: rgb(0, 143, 95);
+}
+
+
+#menu > li, #menu, #main-header nav{
+    height: 100%;
+}
+
+#main-header a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 50px;
+    display: block;
+}
+
+/*sotto-menu*/
+
+#menu li > ul{
+    height: 0;    
+    overflow: hidden;
+    position: absolute;
+    background-color:  rgb(0, 143, 95);
+    width: 200px;
+    transition: height 0.3s;
+}
+
+#menu li:hover > ul{
+    height: 150px;
+}

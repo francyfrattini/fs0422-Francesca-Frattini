@@ -1,0 +1,13 @@
+.fascia{
+    background-color: rgb(198, 243, 255);
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#elemento-relative{
+    position: relative;
+    top:50px;
+    left: 20px;
+}
