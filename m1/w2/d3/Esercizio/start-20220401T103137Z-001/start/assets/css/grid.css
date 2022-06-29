@@ -1,0 +1,28 @@
+iframe{
+    display: none;
+}
+
+main{
+    display: grid;
+}
+
+.articoli{
+    background-color: #ffffff;
+    border:#ffffff;   
+    margin-top: -3rem;   
+    margin-right: -1rem;
+    margin-left: -1rem;  
+}
+
+aside{
+    grid-column-start: 2; 
+    grid-column-end: 3;
+    margin-left: 2rem;
+}
+
+.novita{
+    position: sticky;
+    top: 20rem;
+}
+
+

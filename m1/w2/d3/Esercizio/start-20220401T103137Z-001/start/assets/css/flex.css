@@ -1,0 +1,46 @@
+iframe{
+    display: none;
+}
+
+.articoli{
+    background-color: #ffffff;
+    border:#ffffff;  
+    margin-top: -2rem;
+    margin-bottom: -1rem;
+}
+
+@media screen and (min-width: 500px){
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .articoli{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 80%; 
+    }
+
+}
+
+@media screen and (min-width: 800px){
+
+    main{
+        display: flex;
+    }
+
+    .novita{
+        margin-top: 10rem;
+    }
+
+    aside{
+        margin-left: 2rem;
+    }
+
+    .articoli{
+        flex-direction: column;
+        font-size: 80%;
+        width: 23rem;
+    }
+}
