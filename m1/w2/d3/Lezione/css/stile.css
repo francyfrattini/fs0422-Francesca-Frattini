@@ -1,0 +1,71 @@
+h3{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+    border-top: 1px solid black;
+}
+
+.container{
+    display: flex;
+}
+
+.blocco{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(209, 209, 209);
+    border: 1px solid white
+}
+
+#n2{
+    flex-direction: column;
+}
+
+#n3{
+    flex-direction: row-reverse;
+}
+
+#n4{
+    flex-direction: column-reverse;
+}
+
+#n5{
+    flex-wrap: nowrap;
+}
+
+#n6{
+    flex-wrap: wrap; /*fa sì che gli elementi prendano il loro spazio senza essere ridimensionati*/
+}
+
+#n7{
+    flex-wrap: wrap-reverse;
+}
+
+#n8{
+    justify-content: flex-start;
+}
+
+#n9{
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#n10{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#n11{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#n12{
+    flex-wrap: wrap;
+    justify-content: space-around;/*fa sì che attorno ad ogni colonna vi sia lo stesso spazio*/
+}
+
+#n13{
+    flex-wrap: wrap;
+    justify-content: space-evenly;/*ripartisce in maniera equa gli spazi*/
+}
