@@ -2,9 +2,6 @@ iframe{
     display: none;
 }
 
-main{
-    display: grid;
-}
 
 .articoli{
     background-color: #ffffff;
@@ -14,15 +11,20 @@ main{
     margin-left: -1rem;  
 }
 
-aside{
-    grid-column-start: 2; 
-    grid-column-end: 3;
-    margin-left: 2rem;
-}
-
 .novita{
     position: sticky;
     top: 20rem;
 }
 
+/*GRID*/
+
+main{
+    display: grid;
+}
+
+aside{
+    grid-column-start: 2; 
+    grid-column-end: 3;
+    margin-left: 2rem;
+}
 

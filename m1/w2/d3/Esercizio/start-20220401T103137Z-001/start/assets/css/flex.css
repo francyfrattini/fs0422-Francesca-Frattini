@@ -9,6 +9,8 @@ iframe{
     margin-bottom: -1rem;
 }
 
+/*500PX*/
+
 @media screen and (min-width: 500px){
     .container{
         display: flex;
@@ -25,6 +27,8 @@ iframe{
     }
 
 }
+
+/*800PX*/
 
 @media screen and (min-width: 800px){
 
