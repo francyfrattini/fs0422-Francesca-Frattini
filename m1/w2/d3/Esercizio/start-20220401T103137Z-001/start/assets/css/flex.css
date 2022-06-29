@@ -13,11 +13,13 @@ iframe{
     .container{
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .articoli{
         display: flex;
         flex-direction: row;
+        gap: 1rem;
         justify-content: space-evenly;
         font-size: 80%; 
     }
