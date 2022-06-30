@@ -8,3 +8,132 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+#testoAlternato{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: 5px solid orange;
+    color:white;
+    height: 150px;
+    width: 520px;
+    margin-left: 30px;
+    margin-top: 200px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+    line-height: 30px;
+}
+
+.parole{
+    color: orange;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+}
+
+#parola1{
+    animation-name: animazione1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animazione1 {
+
+    0% {
+        transform: translate(-70px, 45px) rotateY(0deg);
+        opacity: 0;
+    }
+
+    30% {
+        transform: translate(-70px, 45px) rotateY(0deg);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translate(-70px, 60px) rotateY(0);
+        color: orange;
+        opacity: 1;
+    }
+
+    70% {
+        transform: translate(-70px, 75px) rotateY(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(-70px, 75px) rotateY(0);
+        opacity: 0;
+    }
+}
+
+#parola2{
+    animation-name: animazione2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes animazione2 {
+
+    0% {
+        transform: translate(-70px, 15px) rotateY(0deg);
+          opacity: 0;
+    }
+
+    30% {
+        transform: translate(-70px, 15px) rotateY(0deg);
+          opacity: 0;
+    }
+
+    50% {
+        transform: translate(-70px, 30px) rotateY(0);
+        color: orange;
+        opacity: 1;
+    }
+
+    70% {
+        transform: translate(-70px, 45px) rotateY(0);
+          opacity: 0;
+    }
+
+    100% {
+        transform: translate(-70px, 45px) rotateY(0);
+          opacity: 0;
+    }
+}
+
+#parola3{
+    animation-name: animazione3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+
+@keyframes animazione3 {
+
+    0% {
+        transform: translate(-70px,  -15px) rotateY(0);
+          opacity: 0;
+    }
+
+    30% {
+        transform: translate(-70px,  -15px) rotateY(0);
+          opacity: 0;
+    }
+
+    50% {
+        transform: translate(-70px, 0px) rotateY(0);
+        color: orange;
+        opacity: 1;
+    }
+
+    70% {
+        transform: translate(-70px, 15px) rotateY(0);
+          opacity: 0;
+    }
+
+    100% {
+        transform: translate(-70px, 15px) rotateY(0);
+          opacity: 0;
+    }
+}
