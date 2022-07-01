@@ -1,0 +1,195 @@
+/* IMPOSTAZIONI GENERALI */
+
+html {font-size: 62.5%;}
+
+.main-container{
+    margin: 0 auto;
+}
+
+label{
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    font-family: 'Fira Sans', sans-serif; 
+    text-align: center;   
+}
+
+h2, h3, h4, h5{
+    color: black;
+    line-height: 2.5rem;
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    margin-top: 2rem;
+    text-shadow: 2px 2px 4px black;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+h3{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+h4{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+h5{
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+}
+
+a, form{
+    background: linear-gradient(90deg, #6cc1e2 0%, #392f7a 80%);
+    color:white;
+    padding: 1rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+
+/* HEADER */
+
+
+/* MAIN */
+
+
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem;
+    text-align:left;
+}
+
+#banner h4{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.paragrafi{
+    margin: 2.5rem;
+    padding-top: 2rem;
+}
+
+i{
+    color: #e42424;
+    font-size: 3rem;
+
+}
+
+#sfondo-bianco{
+    margin-bottom: 3rem;
+}
+
+#sfondo-blu{
+    background-color: #0c0633;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#sfondo-blu h3, #sfondo-blu h4{
+    color: white;
+}
+
+#sfondo-blu h3{
+    padding-top: 3rem;
+}
+
+#sfondo-blu h4{
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 0rem;
+}
+
+#sfondo-blu a{
+    margin-bottom: 7rem;
+}
+
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    background-color: rgb(238, 238, 238);
+    padding: 3.5rem;
+}
+
+h6{
+    line-height: 2rem;
+}
+
+#sfondo-grigio i{
+    margin-bottom: 3rem;
+    margin-top: -1rem;
+}
+
+#sfondo-grigio a{
+    background: none;
+    color: black;
+    font-size: 1rem;
+    margin: -1rem;
+}
+
+form{
+    margin-bottom: 2rem;
+    border: none;
+    text-align: center;
+}
+
+
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width:320px) {
+
+    .navbar{
+        margin: 1rem;
+    }
+
+    .banner h4{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (min-width:480px){
+    
+    #banner{
+        padding: 5rem;
+    }
+
+    .paragrafi1{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
