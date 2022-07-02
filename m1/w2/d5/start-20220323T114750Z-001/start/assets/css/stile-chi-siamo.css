@@ -1,0 +1,33 @@
+/*MAIN*/
+
+#sfondo-bianco img{
+    margin-bottom: 2rem;
+}
+
+/*TABELLA*/
+
+table{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+}
+
+td {
+    vertical-align: top;
+    text-align: left;
+}
+
+
+td h4{
+    margin-bottom: 0rem;
+    margin-left: 1rem;
+}
+
+#grigio1, #grigio2{
+    background-color: #d3dce7;
+}
+
+#grigio1, #bianco1{
+    font-weight: bold;
+}
+
