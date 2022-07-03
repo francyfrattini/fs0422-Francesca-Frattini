@@ -7,8 +7,7 @@
 /*TABELLA*/
 
 table{
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin: auto;
     margin-bottom: 5rem;
 }
 
@@ -19,15 +18,80 @@ td {
 
 
 td h4{
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
     margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 2rem;
 }
 
-#grigio1, #grigio2{
+#grigio, #grigio1{
     background-color: #d3dce7;
 }
 
-#grigio1, #bianco1{
+#grigio, #bianco{
     font-weight: bold;
+}
+
+.table2 h4{
+    text-align: center;
+    padding: 1rem;
+}
+
+thead{
+    background-color: #7699c4;
+}
+
+thead h4{
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width:768px){
+
+     /*TABELLA*/
+
+     .table2{
+        display: none;
+     }
+}
+
+@media screen and (min-width:768px){
+
+    /*MAIN*/
+
+    .paragrafi1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sfondo-bianco h4{
+        text-align: center;
+        margin-bottom: 0rem;
+    }
+
+    #sfondo-bianco img{
+        width: 35rem;
+    }
+
+    /*TABELLA*/
+
+    .table1{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px){
+
+    /*MAIN*/
+
+    .paragrafi{
+        margin-right: 15rem;
+        margin-left: 15rem;
+    }
 }
 
