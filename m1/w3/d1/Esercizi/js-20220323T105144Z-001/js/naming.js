@@ -26,4 +26,14 @@ console.log(coniglio)
 console.log(criceto + ' è il mio ' + petPreferito + ', ' + coniglio + ' è il mio ' + PetPreferito)
 
 
-//var 12 = 'numero';
+var Roger = {
+    colore: "marrone",
+    età: 1,
+    coloreBianco: false,
+}
+
+console.log (Roger)
+
+petPreferito = 'AnimalePrefe'
+
+//var 12 = 'numero'; 
