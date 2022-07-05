@@ -7,52 +7,84 @@
     <title>Document</title>
 </head>
 <body>
-
     <script>
 
-        console.log( 1 == 1 );
-        console.log( 1 === 1 );
-        console.log( 1 == '1' );
-        console.log( 1 === '1' );
+        console.log( 1 == 1 )
+        console.log( 1 === 1 )
+        console.log( 1 == '1' )
+        console.log( 1 === '1' )
 
         let a = 'Ciao';
-        let b = 'Hi';
-        console.log( a == b );
-        console.log( a != b );
+        let b = 'Hi'
+        console.log(a != b)
+        console.log(a !== b)
+        console.log(1 !== '1')//true, il tipo di dato è differente
 
-        let n = 10
-        console.log(n > 10);
-        console.log(n >= 10);
-        console.log(n < 10);
-        console.log(n <= 10);
+        let n = 10;
 
-        console.log( !(n <= 10) );
-
-        console.log(n > 10 || n==10);
-        console.log(n > 10 && n==10);
+        console.log(n > 10)//true se n è superiore 10
+        console.log(n >= 10)//true se n è superiore o uguale a 10
+        console.log(n < 10)//true se n è inferiore a 10
+        console.log(n <= 10)//true se n è inferiore o uguale a 10
 
 
 
+        console.log( !(n <= 10) )//l'operatore not inverte il valore di un dato booleano
 
+        console.log(n > 10 || n == 10);//true se una delle due condizioni è vera
+        console.log(n > 10 && n == 10);//true se entrambe le condizioni sono vere
 
-        let condizione = false;
+        /*
+        if
+        */
+        let condizione = true;
         if(condizione){
-            console.log('vero')
+            console.log('vero');
         }else{
-            console.log('falso')
+            console.log('falso');
         }
 
+        let numero = 29;
+        console.log(numero > 30)//restituisce un boolean
 
-        let numero = 30
-        if(numero>30){
+        //la prima condizione risultante come vera blocca l'esecuzione dell'if
+        if(numero > 30){
+
             console.log('superiore')
-        }else if(numero==30){
+
+        }else if(numero == 30){
+
             console.log('uguale')
+
         }else{
+            //nel caso in cui le condizioni non risultino vere viene eseguito l'else
             console.log('inferiore')
         }
 
+
+        /*
+        trabocchetto dell'assegnamento
+        */
+        let h = 'Ciao';
+        let l = 'Ciao1';
+        if(h = l){
+            console.log('vero')
+            console.log(h, l)
+        }
+
+
+        let str = '';
+        if(str){//stringa vuota mappa a false
+            console.log('test');
+        }
+        
+        let num = 0;
+        if(num){
+            console.log('test');
+        }
+
+
+
     </script>
-    
 </body>
 </html>
