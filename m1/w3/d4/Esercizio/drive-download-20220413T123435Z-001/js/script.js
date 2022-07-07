@@ -60,9 +60,12 @@ console.log(aggiungiUltima);
 console.log(amiche)
 
 
+
+
 let eliminaPrima = amiche.shift ();
 console.log(eliminaPrima);
 
 let aggiungiPrima = amiche.unshift ("Monique");
 console.log(aggiungiPrima);
 console.log(amiche);
+
