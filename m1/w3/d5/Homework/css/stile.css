@@ -1,0 +1,88 @@
+
+/*IMPOSTAZIONI GENERALI*/
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+body{
+    margin-top: 10rem;
+}
+
+
+
+/* FLEX e GRID - struttura calcolatrice e struttura bottoni*/
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcolatrice{
+    display: grid;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#bottoni{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  text-align: center;
+}
+
+input{
+  grid-column: span 4;
+  width: 100%;
+  text-align: left;
+  height: 5rem;
+  background-color: white;
+  font-size: 3.5rem;
+}
+
+::-webkit-input-placeholder{
+  font-size: 3.5rem;
+  color: rgba(0,0,0,0.5);
+}
+
+
+
+
+/* BOTTONI */
+
+.bottone-numero, .bottone-cancella, .bottone-calcolo, .bottone-uguale, .bottone-elimina{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3rem;
+  font-size: 1.2em;
+  transition: all 0.3s;
+  border: 0.1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255,255,255,0.7)
+}
+
+
+.bottone-numero{
+  background-color: #000000;
+}
+
+.bottone-numero:hover, .bottone-cancella:hover{
+  background-color: rgb(167, 18, 77);
+}
+
+.bottone-uguale{
+  grid-column: span 4;
+}
+
+.bottone-uguale, .bottone-cancella, .bottone-calcolo{
+background-color: rgb(167, 18, 77);
+}
+
+.bottone-uguale:hover, .bottone-cancella:hover, .bottone-calcolo:hover{
+  background-color: #000000;
+}

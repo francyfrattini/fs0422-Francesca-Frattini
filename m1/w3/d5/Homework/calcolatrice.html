@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/stile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="main-container">
+
+        <div class="calcolatrice">
+
+            <div id="bottoni">
+
+                <input id="display" type="text" placeholder="0">
+
+                <div class="bottone-numero" onclick="inserisci(7)">7</div>
+                <div class="bottone-numero" onclick="inserisci(8)">8</div>
+                <div class="bottone-numero" onclick="inserisci(9)">9</div>
+                <div class="bottone-calcolo" onclick="inserisci('/')">/</div>
+
+                <div class="bottone-numero" onclick="inserisci(4)">4</div>
+                <div class="bottone-numero" onclick="inserisci(5)">5</div>
+                <div class="bottone-numero" onclick="inserisci(6)">6</div>
+                <div class="bottone-calcolo" onclick="inserisci('*')">X</div>
+
+                <div class="bottone-numero" onclick="inserisci(1)">1</div>
+                <div class="bottone-numero" onclick="inserisci(2)">2</div>
+                <div class="bottone-numero" onclick="inserisci(3)">3</div>
+                <div class="bottone-calcolo" onclick="inserisci('-')">-</div>
+
+                <div class="bottone-cancella" onclick="cancella(2*0)">C</div>
+                <div class="bottone-numero" onclick="inserisci(0)">0</div>
+                <div class="bottone-calcolo" onclick="inserisci('.')">.</div>
+                <div class="bottone-calcolo" onclick="inserisci('+')">+</div>
+
+                <div class="bottone-uguale" onclick="calcola('=')">=</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
