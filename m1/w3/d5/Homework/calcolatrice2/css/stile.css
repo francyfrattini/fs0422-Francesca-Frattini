@@ -11,6 +11,11 @@ body{
     font-size: 2rem;
 }
 
+#display2{
+  font-family: 'Squada One', cursive;
+  font-size: 2rem;
+}
+
 body{
     margin-top: 10rem;
 }
@@ -48,7 +53,7 @@ input{
 }
 
 ::-webkit-input-placeholder{
-  font-size: 3.5rem;
+  font-size: 5rem;
   color: rgba(0,0,0,0.5);
 }
 
@@ -87,4 +92,27 @@ background-color: rgb(157, 24, 77);
 
 .bottone-uguale:hover, .bottone-cancella:hover, .bottone-calcolo:hover{
   background-color: #000000;
+}
+
+
+
+/*ANIMAZIONE*/
+
+.main-container{
+  animation-name: animazione1;
+  animation-duration: 5s;
+}
+
+@keyframes animazione1 {
+  0% {
+    transform: rotate(180deg);
+  }
+
+  40% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }

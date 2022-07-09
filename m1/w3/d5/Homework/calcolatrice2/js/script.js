@@ -1,3 +1,6 @@
+
+let hello = alert('Ben arrivato!');
+
 function calcola() {
     let display = document.getElementById("display");
     let totale = eval(display.value)
@@ -14,3 +17,6 @@ function cancella(azzera){
     display.value = azzera
 }
 
+
+let eta = prompt('Quanti anni hai?');
+console.log(eta);
