@@ -68,6 +68,7 @@
     animation-duration: .5s;
     background-color:white;
     border: 3px solid #8b8aed;
+    opacity: 20%;
     border-radius: 10px;
 }
 

@@ -134,10 +134,9 @@ var openModal = () =>{
 }
 
 // una funzione che nasconde la modale alla fine e riavvia il gioco
-var closeModal = () => closeicon.addEventListener("click", function (e) {
-    modal.classList.remove("active");
-    startGame();
-});
+var closeModal = () => modal.classList.remove("active");
+startGame();
+
 
 
 // una funzione che calcola il tempo e aggiorna il contenitore sotto
