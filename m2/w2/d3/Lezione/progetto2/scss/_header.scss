@@ -1,0 +1,15 @@
+header{
+    ul{
+        display: flex;
+        a{
+            color: black;
+        }
+        li{
+            padding: 10px;
+            background-color: blue;
+            &:hover{
+                background-color: white;
+            }
+        }
+    }
+}

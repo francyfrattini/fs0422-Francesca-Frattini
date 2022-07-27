@@ -1,3 +1,39 @@
+@import 'variables';
+@import 'header';
+
 h1{
-    background-color: red;
+    background-color:$colore-primario;
 }
+
+p{
+    background-color:$colore-primario;
+}
+
+@mixin quadrato($dimensione) {
+    width: $dimensione;
+    height: $dimensione;
+}
+
+@mixin font($prop, $val) {
+    font-#{$prop} : $val;
+}
+
+.blocco{
+    background-color: green;
+    @include quadrato(100px);
+}
+
+.quadrato{
+    background-color: blue;
+    @include quadrato(200px);
+    &:hover{
+        background-color: darken($color: blue, $amount: 30%);
+    }
+}
+
+p{
+    @include font ('size', 2rem);
+    @include font ('family', 'Arial');
+}
+
+@import 'footer';
