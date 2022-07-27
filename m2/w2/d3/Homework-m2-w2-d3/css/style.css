@@ -53,15 +53,23 @@ img {
   margin: 2rem 0;
   border-radius: 10px;
   transition: transform 0.3s; }
+  @media screen and (min-width: 768px) {
+    /* line 43, scss/style.scss */
+    img {
+      max-width: 40%; } }
+  @media screen and (min-width: 1500px) {
+    /* line 43, scss/style.scss */
+    img {
+      max-width: 30%; } }
 
-/* line 51, scss/style.scss */
+/* line 57, scss/style.scss */
 body {
   background: linear-gradient(#ffe9ff 0%, #cecaff 70%); }
 
-/* line 55, scss/style.scss */
+/* line 61, scss/style.scss */
 .spin {
   transform: rotate(90deg); }
 
-/* line 59, scss/style.scss */
+/* line 65, scss/style.scss */
 .spin360 {
   transform: rotate(360deg); }
