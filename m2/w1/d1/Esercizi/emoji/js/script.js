@@ -1,28 +1,37 @@
-let contenitore = document.querySelector('#contenitore')
+const container = document.querySelector(".container");
+let allEmojis = [
+  "😀",
+  "😁",
+  "😂",
+  "😃",
+  "😄",
+  "😅",
+  "😆",
+  "😇",
+  "😈",
+  "👿",
+  "😉",
+  "😊",
+  "☺️",
+  "😋",
+  "😌",
+  "😍",
+  "😎"
+];
+let index = 0;
 
-let div1 = document.createElement("div");
-let div2 = document.createElement("div");
-let div3 = document.createElement("div");
+container.addEventListener("click", (e) => {
+  const box = document.createElement("div");
+  box.classList.add("awesome");
+  box.innerHTML = allEmojis[randomInteger(0, allEmojis.length - 1)];
+  box.style.fontSize = `120px`;
+  box.style.position = "absolute";
+  box.style.left = `${randomInteger(0, 90)}%`;
+  box.style.top = `${randomInteger(0, 90)}%`;
+  box.style.zIndex = index++;
+  container.appendChild(box);
+});
 
-let date = new Date();
-
-//richiamare la data attuale
-div1.innerText = `Oggi e' il giorno: ` + date;
-
-contenitore.appendChild(div1);
-
-//mostrare elementi singoli della data
-div2.innerText = 'Giorno: ' + date.getDay() +
- ' Mese: ' + date.getMonth() + ' Numero: ' + date.getDate();
-contenitore.appendChild(div2);
- 
-//crere un sistema per la formattazione in formato europero
-const options = { 
-    weekday: 'long', 
-    year: 'numeric', 
-    month: 'long', 
-    day: 'numeric' 
-};
-
-div3.innerHTML = date.toLocaleTimeString('it-IT',options)
-contenitore.appendChild(div3);
+function randomInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
