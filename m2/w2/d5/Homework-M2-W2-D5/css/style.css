@@ -1,5 +1,4 @@
 /* SCSS RGB */
-/* SCSS Gradient */
 /*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
@@ -10679,63 +10678,108 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-/* line 6, scss/custom.scss */
-h1, .h1, h3, .h3 {
-  color: #283d3b; }
+/* line 5, sass/custom.scss */
+* {
+  font-family: "Arima Madurai"; }
 
-/* line 10, scss/custom.scss */
+/* line 10, sass/custom.scss */
+h1, .h1, h3, .h3, h5, .h5 {
+  color: #283d3b;
+  font-weight: bold; }
+
+/* line 17, sass/custom.scss */
 body {
-  background-color: rgba(196, 69, 54, 0.8); }
+  background-color: rgba(40, 61, 59, 0.5); }
 
-/* line 14, scss/custom.scss */
+/* line 21, sass/custom.scss */
 .main-container {
   background-color: rgba(237, 221, 212, 0.9);
   margin: 3rem;
   border: 5px solid #197278; }
 
-/* line 20, scss/custom.scss */
-nav, footer {
+/* line 27, sass/custom.scss */
+nav,
+footer {
   background-color: #197278; }
-  /* line 22, scss/custom.scss */
-  nav .navbar-brand, nav .nav-link, nav i, nav p, footer .navbar-brand, footer .nav-link, footer i, footer p {
+  /* line 31, sass/custom.scss */
+  nav .navbar-brand,
+  nav .nav-link,
+  nav i,
+  nav p,
+  footer .navbar-brand,
+  footer .nav-link,
+  footer i,
+  footer p {
     color: #edddd4; }
 
-/* line 27, scss/custom.scss */
-.nav-link, p {
+/* line 39, sass/custom.scss */
+.nav-link,
+p {
   opacity: 80%; }
 
-/* line 31, scss/custom.scss */
+/* line 44, sass/custom.scss */
 button.navbar-toggler {
   color: #edddd4; }
 
-/* line 35, scss/custom.scss */
+/* line 48, sass/custom.scss */
 .nav-link:hover {
   background-color: #edddd4;
   border-radius: 0.5rem;
   color: #197278;
   opacity: 80%; }
+  @media screen and (max-width: 994px) {
+    /* line 48, sass/custom.scss */
+    .nav-link:hover {
+      background-color: #197278;
+      color: #edddd4;
+      text-decoration: underline;
+      opacity: 80%; } }
 
-/* line 42, scss/custom.scss */
-.navbar-brand:hover, i:hover {
+/* line 62, sass/custom.scss */
+.navbar-brand:hover,
+i:hover {
   font-weight: bold;
   text-decoration: underline;
   color: #edddd4;
   opacity: 80%; }
 
-/* line 49, scss/custom.scss */
+/* line 70, sass/custom.scss */
 .dropdown-divider {
   border: 0.5px solid rgba(196, 69, 54, 0.4);
   margin: 0 8rem 0 8rem; }
   @media screen and (min-width: 994px) {
-    /* line 49, scss/custom.scss */
+    /* line 70, sass/custom.scss */
     .dropdown-divider {
       margin: 5rem 15rem 4rem 16rem; } }
-  @media screen and (min-width: 1200px) {
-    /* line 49, scss/custom.scss */
-    .dropdown-divider {
-      display: none; } }
 
 @media screen and (min-width: 1200px) {
-  /* line 60, scss/custom.scss */
+  /* line 79, sass/custom.scss */
+  #divider1 {
+    display: none; } }
+
+@media screen and (max-width: 994px) {
+  /* line 85, sass/custom.scss */
+  #divider2 {
+    margin: 3rem 9rem 2rem 9rem; } }
+
+@media screen and (max-width: 767px) {
+  /* line 92, sass/custom.scss */
+  #immagine-invisible {
+    display: none; } }
+
+@media screen and (min-width: 994px) {
+  /* line 99, sass/custom.scss */
   .partnership {
-    margin-top: 8rem; } }
+    margin: 10rem; } }
+
+/* line 105, sass/custom.scss */
+#sezioni-rosa {
+  background-color: rgba(196, 69, 54, 0.2); }
+  @media screen and (min-width: 1200px) {
+    /* line 105, sass/custom.scss */
+    #sezioni-rosa {
+      margin-top: 8rem; } }
+
+/* line 114, sass/custom.scss */
+#testi-carosello {
+  background-color: rgba(255, 255, 255, 0.8); }

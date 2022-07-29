@@ -1,0 +1,15 @@
+/* SCSS RGB */
+$outer-space-crayola: rgba(40, 61, 59, 1);
+$outer-space-crayola-bg: rgba(40, 61, 59, 0.5);
+$skobeloff: rgba(25, 114, 120, 1);
+$champagne-pink: rgba(237, 221, 212, 1);
+$champagne-pink-main: rgba(237, 221, 212, 0.9);
+$international-orange-golden-gate-bridge: rgba(196, 69, 54, 1);
+$international-orange-golden-gate-bridge-body: rgba(196, 69, 54, 0.8);
+$international-orange-golden-gate-bridge-divider: rgba(196, 69, 54, 0.4);
+$international-orange-golden-gate-bridge-sezioni: rgba(196, 69, 54, 0.2);
+$liver-organ: rgba(119, 46, 37, 1);
+
+@mixin font($prop, $val) {
+    font-#{$prop}: $val;
+}

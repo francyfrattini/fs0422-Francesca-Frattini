@@ -1,0 +1,116 @@
+@import 'variables';
+@import 'functions';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+* {
+    @include font("family", "Arima Madurai");
+}
+
+
+h1,
+h3,
+h5 {
+    color: $outer-space-crayola;
+    font-weight: bold;
+}
+
+body {
+    background-color: $outer-space-crayola-bg;
+}
+
+.main-container {
+    background-color: $champagne-pink-main;
+    margin: 3rem;
+    border: 5px solid $skobeloff;
+}
+
+nav,
+footer {
+    background-color: $skobeloff;
+
+    .navbar-brand,
+    .nav-link,
+    i,
+    p {
+        color: $champagne-pink;
+    }
+}
+
+.nav-link,
+p {
+    opacity: 80%;
+}
+
+button.navbar-toggler {
+    color: $champagne-pink;
+}
+
+.nav-link:hover {
+    background-color: $champagne-pink;
+    border-radius: 0.5rem;
+    color: $skobeloff;
+    opacity: 80%;
+
+    @media screen and (max-width: 994px) {
+        background-color: $skobeloff;
+        color: $champagne-pink;
+        text-decoration: underline;
+        opacity: 80%;
+    }
+}
+
+.navbar-brand:hover,
+i:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: $champagne-pink;
+    opacity: 80%;
+}
+
+.dropdown-divider {
+    border: 0.5px solid $international-orange-golden-gate-bridge-divider;
+    margin: 0 8rem 0 8rem;
+
+    @media screen and (min-width: 994px) {
+        margin: 5rem 15rem 4rem 16rem;
+    }
+}
+
+#divider1 {
+    @media screen and (min-width: 1200px) {
+        display: none;
+    }
+}
+
+#divider2 {
+    @media screen and (max-width: 994px) {
+        margin: 3rem 9rem 2rem 9rem;
+    }
+
+}
+
+#immagine-invisible {
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+
+}
+
+.partnership {
+    @media screen and (min-width: 994px) {
+        margin: 10rem;
+    }
+}
+
+#sezioni-rosa {
+    background-color: $international-orange-golden-gate-bridge-sezioni;
+
+    @media screen and (min-width: 1200px) {
+        margin-top: 8rem;
+    }
+}
+
+
+#testi-carosello {
+    background-color: rgba(255, 255, 255, 0.8);
+}
