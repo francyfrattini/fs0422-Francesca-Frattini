@@ -1,0 +1,44 @@
+$bg_scuro:rgb(71, 71, 71);
+$testo_chiaro:rgb(171, 171, 171);
+
+$bg_chiaro:rgb(171, 171, 171);
+$testo_scuro:rgb(71, 71, 71);
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+@import 'functions';
+
+.clamp{
+    width: clamp(500px,100%,800px);
+    height: 100px;
+}
+
+.bg-scuro, .bg-chiaro{
+    height: 100px;
+}
+
+.bg-scuro{
+    background-color:$bg_scuro;
+    color: $testo_chiaro;
+}
+
+.bg-chiaro{
+    background-color: $bg_chiaro;
+    color: $testo_scuro;
+}
+
+
+
+
+.rettangolo{
+    height: 100px;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+
+.quadrato{
+    @extend .rettangolo;
+    width: 100px;
+    background-color: yellowgreen;
+}

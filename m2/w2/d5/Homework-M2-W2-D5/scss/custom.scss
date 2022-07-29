@@ -1,0 +1,67 @@
+@import 'variables';
+@import 'functions';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+h1, h3{
+    color: $outer-space-crayola;
+}
+
+body{
+    background-color: $international-orange-golden-gate-bridge-body;
+}
+
+.main-container{
+    background-color: $champagne-pink-main;
+    margin: 3rem;
+    border: 5px solid $skobeloff;
+}
+
+nav, footer{
+    background-color:$skobeloff;
+    .navbar-brand, .nav-link, i, p{
+        color: $champagne-pink;
+    }
+}
+
+.nav-link, p{
+    opacity: 80%;
+}
+
+button.navbar-toggler{
+    color: $champagne-pink;
+}
+
+.nav-link:hover{
+        background-color: $champagne-pink;
+        border-radius: 0.5rem;
+        color:$skobeloff;
+        opacity: 80%;
+    }
+
+.navbar-brand:hover, i:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color:$champagne-pink;
+    opacity: 80%;
+}
+
+.dropdown-divider{
+    border: 0.5px solid  $international-orange-golden-gate-bridge-divider;
+    margin: 0 8rem 0 8rem;
+    @media screen and (min-width: 994px) {
+        margin: 5rem 15rem 4rem 16rem;
+    }
+    @media screen and (min-width: 1200px) {
+        display:none;
+       }
+}
+
+.partnership{
+    @media screen and (min-width: 1200px) {
+        margin-top: 8rem;
+       }
+
+}
+
+
