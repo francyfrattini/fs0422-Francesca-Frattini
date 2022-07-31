@@ -10678,30 +10678,30 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-/* line 5, sass/custom.scss */
+/* line 7, sass/custom.scss */
 * {
   font-family: "Arima Madurai"; }
 
-/* line 10, sass/custom.scss */
+/* line 12, sass/custom.scss */
 h1, .h1, h3, .h3, h5, .h5 {
   color: #283d3b;
   font-weight: bold; }
 
-/* line 17, sass/custom.scss */
+/* line 19, sass/custom.scss */
 body {
   background-color: rgba(40, 61, 59, 0.5); }
 
-/* line 21, sass/custom.scss */
+/* line 23, sass/custom.scss */
 .main-container {
   background-color: rgba(237, 221, 212, 0.9);
   margin: 3rem;
   border: 5px solid #197278; }
 
-/* line 27, sass/custom.scss */
+/* line 31, sass/custom.scss */
 nav,
 footer {
   background-color: #197278; }
-  /* line 31, sass/custom.scss */
+  /* line 35, sass/custom.scss */
   nav .navbar-brand,
   nav .nav-link,
   nav i,
@@ -10712,30 +10712,30 @@ footer {
   footer p {
     color: #edddd4; }
 
-/* line 39, sass/custom.scss */
+/* line 43, sass/custom.scss */
 .nav-link,
 p {
   opacity: 80%; }
 
-/* line 44, sass/custom.scss */
+/* line 48, sass/custom.scss */
 button.navbar-toggler {
   color: #edddd4; }
 
-/* line 48, sass/custom.scss */
+/* line 52, sass/custom.scss */
 .nav-link:hover {
   background-color: #edddd4;
   border-radius: 0.5rem;
   color: #197278;
   opacity: 80%; }
   @media screen and (max-width: 994px) {
-    /* line 48, sass/custom.scss */
+    /* line 52, sass/custom.scss */
     .nav-link:hover {
       background-color: #197278;
       color: #edddd4;
       text-decoration: underline;
       opacity: 80%; } }
 
-/* line 62, sass/custom.scss */
+/* line 66, sass/custom.scss */
 .navbar-brand:hover,
 i:hover {
   font-weight: bold;
@@ -10743,34 +10743,29 @@ i:hover {
   color: #edddd4;
   opacity: 80%; }
 
-/* line 70, sass/custom.scss */
+/* line 74, sass/custom.scss */
 .dropdown-divider {
   border: 0.5px solid rgba(196, 69, 54, 0.4);
   margin: 0 8rem 0 8rem; }
   @media screen and (min-width: 994px) {
-    /* line 70, sass/custom.scss */
+    /* line 74, sass/custom.scss */
     .dropdown-divider {
       margin: 5rem 15rem 4rem 16rem; } }
 
 @media screen and (min-width: 1200px) {
-  /* line 79, sass/custom.scss */
+  /* line 83, sass/custom.scss */
   #divider1 {
     display: none; } }
 
 @media screen and (max-width: 994px) {
-  /* line 85, sass/custom.scss */
+  /* line 89, sass/custom.scss */
   #divider2 {
     margin: 3rem 9rem 2rem 9rem; } }
 
 @media screen and (max-width: 767px) {
-  /* line 92, sass/custom.scss */
+  /* line 98, sass/custom.scss */
   #immagine-invisible {
     display: none; } }
-
-@media screen and (min-width: 994px) {
-  /* line 99, sass/custom.scss */
-  .partnership {
-    margin: 10rem; } }
 
 /* line 105, sass/custom.scss */
 #sezioni-rosa {
@@ -10780,6 +10775,11 @@ i:hover {
     #sezioni-rosa {
       margin-top: 8rem; } }
 
-/* line 114, sass/custom.scss */
+@media screen and (min-width: 994px) {
+  /* line 115, sass/custom.scss */
+  .partnership {
+    margin: 10rem; } }
+
+/* line 124, sass/custom.scss */
 #testi-carosello {
   background-color: rgba(255, 255, 255, 0.8); }

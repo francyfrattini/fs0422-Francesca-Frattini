@@ -2,6 +2,8 @@
 @import 'functions';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
+//generali
+
 * {
     @include font("family", "Arima Madurai");
 }
@@ -23,6 +25,8 @@ body {
     margin: 3rem;
     border: 5px solid $skobeloff;
 }
+
+//navbar e footer
 
 nav,
 footer {
@@ -89,17 +93,13 @@ i:hover {
 
 }
 
+//main
+
 #immagine-invisible {
     @media screen and (max-width: 767px) {
         display: none;
     }
 
-}
-
-.partnership {
-    @media screen and (min-width: 994px) {
-        margin: 10rem;
-    }
 }
 
 #sezioni-rosa {
@@ -109,6 +109,16 @@ i:hover {
         margin-top: 8rem;
     }
 }
+
+//partnership
+
+.partnership {
+    @media screen and (min-width: 994px) {
+        margin: 10rem;
+    }
+}
+
+//carosello
 
 
 #testi-carosello {
