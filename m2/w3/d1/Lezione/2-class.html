@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        class Pizza{
+            constructor(_gusto, _prezzo){ //funzione che viene scatenata in fare si stanziamento dell'oggetto
+            this.gusto = _gusto; //queste sono le variabili di istanza
+            this.prezzo = _prezzo;
+            this.disponibile = true;
+            this.mostraPrezzo(); //questo è un metodo, non una funzione, perchè è stato creato DENTRO all'oggetto
+
+            }
+            mostraPrezzo() {
+                console.log (this.prezzo + '€'); //metodi che leggono le proprietà dell'oggetto
+
+            }
+            pizzaEasurita() {
+                this.disponibile = false; //metodi che modificano le proprietà dell'oggetto
+        }
+    }
+
+        let margherita = new Pizza('Margherita', 5);
+        let mimosa = new Pizza('Mimosa', 8);
+
+        console.log (margherita, mimosa)
+
+        /*
+        questo qui sotto è il sistema manuale per creare un oggetto
+        Richiede da parte mia la riscrittura dell'intera struttura ogni volta che voglio creare
+        un oggetto di questo tipo
+        */
+        let marg = {
+            gusto : 'Margherita',
+            prezzo : 5,
+            mostraPrezzo : () => console.log(this.prezzo + '€'),//la funzione freccia è anonima, quindi il this non vi si aggancia, e si aggancerà all'oggetto window
+            mostraPrezzo2 : function(){ console.log(this.prezzo + '€') }
+        }
+        
+        marg.mostraPrezzo()
+
+        //leggere valori
+        console.log(marg.gusto)
+        coonsole.log(marg['gusto'])//da utilizzare qualora il nome della prop contenga sintassi non concesse
+
+        //scrivere valori
+        margh.prezz = 4.5;
+        console.log(marg.prezzo)
+
+
+    </script>
+    
+</body>
+</html>
+
